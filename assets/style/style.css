@@ -182,8 +182,6 @@ header .jumbotron {
     background-image: url("../img/jumbotron.png");
     background-size: cover;
     background-attachment: fixed;
-    background-position: bottom;
-    margin-top: 70.8px;
     height: 335px;
 }
 
