@@ -121,7 +121,8 @@ header .wrapper .logo h1 {
     -o-transition: all 0.2s ease;
 }
 
-.nav-toggle:hover {
+.nav-toggle:focus {
+    outline: none;
     box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.5);
 }
 
@@ -485,7 +486,7 @@ footer {
 
     ul {
         position: absolute;
-        top: 2px;
+        top: 1px;
         display: flex;
         flex-direction: column;
         height: 100vh;
